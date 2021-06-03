@@ -15,3 +15,5 @@ To add a new workout click the new workout button and fill in the approriate inp
 
 In order to see your progress please go to your dashboard to see your completed workout progress.
 
+# Deployed App
+https://safe-spire-35081.herokuapp.com/?id=60b90213c245000015d2a694
