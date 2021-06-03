@@ -1,6 +1,7 @@
 const express = require('express');
 const Mongoose = require('mongoose');
 
+
 const PORT = process.env.PORT || 3001
 const app = express();
 
@@ -9,7 +10,7 @@ app.use(express.json());
 
 app.use(express.static('public'));
 
-Mongoose.connect(process.env.MONGOD_URI || 'mongodb://localhost/workout', {
+Mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
     useNewUrlParser: true,
     useFindAndModify: false,
     useCreateIndex: true,
